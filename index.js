@@ -169,3 +169,9 @@ const usercart=[
 
 const found=usercart.find((product)=>product.productid===4);
 console.log(found);
+const sea=usercart.find((product)=>product.price>30000);
+console.log(sea);
+
+// to check the price to 
+const check=usercart.every((product)=> product.price<300000);
+console.log(check)
