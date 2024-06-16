@@ -326,3 +326,4 @@
 //     info: function()
 // }
 
+// write a program to change the random color of the background
