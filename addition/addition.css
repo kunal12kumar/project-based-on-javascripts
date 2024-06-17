@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,pink ,blue);
+}
+
+/* header styling */
+header{
+    text-align: center;
+}
+
+/* form styling */
+form{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling on list */
+.unlist{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+/* in this we are applying the style to all the child of the class unlist */
+.unlist li{
+    width: 770px;
+    height: 50px;
+    background-color: rgb(66, 123, 214);
+    border: 1px solid rgb(43, 73, 222);
+    border-radius: 15px;
+    box-shadow: 1px 1.5px rgb(193, 48, 222);
+    text-align: center;
+    margin: 10px;
+    font-size:x-large;
+    font-weight: 100;
+    cursor: pointer;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+/* stying input */
+#inputbox{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(47, 153, 214);
+    border: 1px solid rgb(43, 73, 222);
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px rgb(206, 30, 233);
+    text-align: center;
+    margin: 10px;
+    font-size:x-large;
+    font-weight: 100;
+}
+/* styling for submit button  */
+#sbtn{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(66, 123, 214);
+    border: 1px solid rgb(43, 73, 222);
+    border-radius: 15px;
+    box-shadow: 1px 1.5px rgb(193, 48, 222);
+    text-align: center;
+    margin: 10px;
+    font-size:x-large;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+/* text styling */
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(196, 24, 116);
+    border: 1px solid rgb(43, 73, 222);
+    border-radius: 15px;
+    box-shadow: 1px 1.5px rgb(193, 48, 222);
+    text-align: center;
+    font-size:x-large;
+    font-weight: 100;
+    cursor: pointer;
+}
