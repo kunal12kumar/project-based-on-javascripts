@@ -35,13 +35,16 @@
 
 const group=document.querySelectorAll(".one");
 console.log(group);
+const color=["violet","purple","red","Pink","green","Blue","Brown",]
  
 // const group1=document.getElementsByClassName("one");
 // console.log(group1)
 group.forEach((heading,index)=>{
     setTimeout(()=>{
-        console.log(index)
-        heading.textContent=`HELLO WORLD HOW ARE YOU  ${index+1}`
-    },`${(index+1)*1000}`)
+        console.log(index);
+        heading.textContent=`HELLO WORLD HOW ARE YOU  ${index+1}`;
+        console.log(color[index]);
+        heading.style.color=`${color[index]}`;
+    },`${(index+1)*1000}`);
 
 });
