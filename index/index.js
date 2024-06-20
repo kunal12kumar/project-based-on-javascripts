@@ -327,3 +327,5 @@
 // }
 
 // write a program to change the random color of the background
+// this is a java script file which is for practice during class
+// projects will be uploaded on other file
